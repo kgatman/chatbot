@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ollama/ollama
 
 WORKDIR /var/lib/chatbot
 
@@ -12,10 +12,10 @@ RUN apt update && apt upgrade -y && apt install python3 -y && apt install python
 RUN apt install curl -y
 
 # installing ollama for DeepSeek
-RUN curl -fsSL https://ollama.com/install.sh | sh && ollama --version
+# RUN curl -fsSL https://ollama.com/install.sh | sh && ollama --version
 
 # enabling ollama
-RUN systemctl start ollama && systemctl enable ollama
+# RUN systemctl start ollama && systemctl enable ollama
 
 # downloading and running the DeepSeek model
 RUN ollama run deepseek-r1:7b && ollama list
