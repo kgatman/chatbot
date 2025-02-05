@@ -5,3 +5,19 @@
 
 i think i'm gonna finally opt for this one 👇🏾
 	- https://hub.docker.com/r/ollama/ollama
+
+
+Use Cases
+- look at how to process CSV data
+	- user has data in CSV 
+- also look at how to process SQL data
+- basic prompts to test with
+	- what was a measles data for Q4?
+	- how many clients were tested positive for HIV this month in Maseru?
+- Checkout RAG over SQL
+- LLM SQL plugin
+
+Research 
+- Local instance of SQL and research how to link deepseek model to the DB
+- there should be a plugin out there
+- 
