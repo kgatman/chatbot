@@ -2,3 +2,6 @@
 	- https://hub.docker.com/r/ai/chat-demo
 	- https://www.tecmint.com/run-deepseek-locally-on-linux/
 	- https://hub.docker.com/catalogs/gen-ai
+
+i think i'm gonna finally opt for this one 👇🏾
+	- https://hub.docker.com/r/ollama/ollama
