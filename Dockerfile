@@ -18,7 +18,7 @@ RUN apt install curl -y
 # RUN systemctl start ollama && systemctl enable ollama
 
 # starting ollama
-RUN ollama serve &
+RUN nohup ollama serve > ollama.log 2>&1 &
 
 # downloading and running the DeepSeek model
 RUN ollama run deepseek-r1:7b && ollama list
