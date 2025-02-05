@@ -1,0 +1,4 @@
+- Images / links to consider when building the AI chatbot
+	- https://hub.docker.com/r/ai/chat-demo
+	- https://www.tecmint.com/run-deepseek-locally-on-linux/
+	- https://hub.docker.com/catalogs/gen-ai
