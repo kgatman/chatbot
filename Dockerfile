@@ -18,7 +18,7 @@ RUN apt install curl -y
 # RUN systemctl start ollama && systemctl enable ollama
 
 # starting ollama
-RUN ollama serve
+RUN ollama serve & disown
 
 # downloading and running the DeepSeek model
 RUN ollama run deepseek-r1:7b && ollama list
@@ -31,5 +31,5 @@ RUN pip install open-webui
 RUN open-webui serve
 EXPOSE 8080
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+# CMD [ "python", "./your-daemon-or-script.py" ]
 
