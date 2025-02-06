@@ -6,6 +6,7 @@
 i think i'm gonna finally opt for this one 👇🏾
 	- https://hub.docker.com/r/ollama/ollama
 
+----------------------------------------------------------------
 
 ### Use Cases
 - look at how to process CSV data
@@ -24,7 +25,12 @@ Research
 
 LangSmith???
 
+
+----------------------------------------------------------------
+
 ### Using LangChain | Let's see how far we do with instance
 
 - Steps
-	- s
+	- creating my new env
+		- conda create -n hisp-llms python=3.12.7 -y
+	- 
