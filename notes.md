@@ -1,6 +1,5 @@
 ### Images / links to consider when building the AI chatbot
 - https://hub.docker.com/r/ai/chat-demo
-- https://www.tecmint.com/run-deepseek-locally-on-linux/
 - https://hub.docker.com/catalogs/gen-ai
 
 i think i'm gonna finally opt for this one 👇🏾
@@ -42,3 +41,35 @@ LangSmith???
 		- `cd Langchain-and-Ollama.git`
 		- `pip install -r ./requirements.txt`
 		- `pip3 install torch torchvision torchaudio`
+
+----------------------------------------------------------------
+
+### Installing DeepSeek
+
+- Followed this link: `https://www.tecmint.com/run-deepseek-locally-on-linux/
+
+*
+----------------------------------------------------------------
+
+### Adding LangChain
+
+- `pip install langchain`
+- `pip install langchain-ollama`
+- We'll use **LangFuse** or **Opik** inlieu of **LangSmith** to log requests
+
+To configure the environtment:
+
+```python
+	LANGSMITH_TRACING=true
+	LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+	LANGSMITH_API_KEY="<your-api-key>"
+	LANGSMITH_PROJECT="pr-back-junk-38"
+	OPENAI_API_KEY="<your-openai-api-key>"
+
+<code>
+	from langchain_openai import ChatOpenAI
+
+	llm = ChatOpenAI()
+	llm.invoke("Hello, world!")
+	To run the llm in chatmode or Chain:
+</code>
