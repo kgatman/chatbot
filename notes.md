@@ -1,13 +1,13 @@
-- Images / links to consider when building the AI chatbot
-	- https://hub.docker.com/r/ai/chat-demo
-	- https://www.tecmint.com/run-deepseek-locally-on-linux/
-	- https://hub.docker.com/catalogs/gen-ai
+### Images / links to consider when building the AI chatbot
+- https://hub.docker.com/r/ai/chat-demo
+- https://www.tecmint.com/run-deepseek-locally-on-linux/
+- https://hub.docker.com/catalogs/gen-ai
 
 i think i'm gonna finally opt for this one 👇🏾
 	- https://hub.docker.com/r/ollama/ollama
 
 
-Use Cases
+### Use Cases
 - look at how to process CSV data
 	- user has data in CSV 
 - also look at how to process SQL data
@@ -16,8 +16,15 @@ Use Cases
 	- how many clients were tested positive for HIV this month in Maseru?
 - Checkout RAG over SQL
 - LLM SQL plugin
+- The datastore will be based on Object Storage
 
 Research 
 - Local instance of SQL and research how to link deepseek model to the DB
 - there should be a plugin out there
-- 
+
+LangSmith???
+
+### Using LangChain | Let's see how far we do with instance
+
+- Steps
+	- s
