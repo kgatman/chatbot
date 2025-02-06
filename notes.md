@@ -57,7 +57,7 @@ LangSmith???
 - `pip install langchain-ollama`
 - We'll use **LangFuse** or **Opik** inlieu of **LangSmith** to log requests
 
-To configure the environtment:
+To configure the environment:
 
 ```python
 	LANGSMITH_TRACING=true
@@ -65,11 +65,14 @@ To configure the environtment:
 	LANGSMITH_API_KEY="<your-api-key>"
 	LANGSMITH_PROJECT="pr-back-junk-38"
 	OPENAI_API_KEY="<your-openai-api-key>"
+```
 
-<code>
+```python
 	from langchain_openai import ChatOpenAI
 
 	llm = ChatOpenAI()
 	llm.invoke("Hello, world!")
 	To run the llm in chatmode or Chain:
-</code>
+```
+
+- `pip install python-dotenv`
