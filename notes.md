@@ -32,5 +32,8 @@ LangSmith???
 
 - Steps
 	- creating my new env
-		- conda create -n hisp-llms python=3.12.7 -y
-	- 
+		- `conda create -n hisp-llms python=3.12.7 -y`
+		- `conda activate hisp-llms`
+	- to help deactivate activating
+		- `conda activate` to switch to base, and then
+		- `conda config --set auto_activate_base false`	
