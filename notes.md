@@ -37,3 +37,8 @@ LangSmith???
 	- to help deactivate activating
 		- `conda activate` to switch to base, and then
 		- `conda config --set auto_activate_base false`	
+	- install all dependencies from the `requirements.txt` file
+		- `git clone https://github.com/laxmimerit/Langchain-and-Ollama.git`
+		- `cd Langchain-and-Ollama.git`
+		- `pip install -r ./requirements.txt`
+		- `pip3 install torch torchvision torchaudio`
