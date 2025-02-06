@@ -28,7 +28,7 @@ LangSmith???
 
 ----------------------------------------------------------------
 
-### Using LangChain | Let's see how far we do with instance
+### Using LangChain | **Let's see how far we do with this instance**
 
 - Steps
 	- creating my new env
