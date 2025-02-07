@@ -72,7 +72,7 @@ To configure the environment:
 
 	llm = ChatOpenAI()
 	llm.invoke("Hello, world!")
-	To run the llm in chatmode or Chain:
+	# To run the llm in chatmode or Chain:
 ```
 
 - `pip install python-dotenv`
