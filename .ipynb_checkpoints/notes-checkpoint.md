@@ -82,3 +82,11 @@ To configure the environment:
 - `jupyter notebook --generate-config` to generate the config file
 - `c.NotebookApp.allow_origin = '*' #allow all origins`
 - `c.NotebookApp.ip = '0.0.0.0' # listen on all IPs`
+
+
+
+
+# For Leisure Reading
+
+- https://www.thoughtworks.com/insights/blog/generative-ai/demystifying-deepseek
+- https://martinfowler.com/articles/deepseek-papers.html
