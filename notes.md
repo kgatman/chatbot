@@ -18,7 +18,7 @@ i think i'm gonna finally opt for this one 👇🏾
 - LLM SQL plugin
 - The datastore will be based on Object Storage
 
-Research 
+Research
 - Local instance of SQL and research how to link deepseek model to the DB
 - there should be a plugin out there
 
@@ -76,3 +76,9 @@ To configure the environment:
 ```
 
 - `pip install python-dotenv`
+
+#Configuring Jupyter Notebook to allow remote connections (if you're working from a remote)
+
+- `jupyter notebook --generate-config` to generate the config file
+- `c.NotebookApp.allow_origin = '*' #allow all origins`
+- `c.NotebookApp.ip = '0.0.0.0' # listen on all IPs`
